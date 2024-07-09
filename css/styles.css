@@ -5,10 +5,43 @@
 }
 #main-banner{
     display: flex;
+    height: 100vh;
 }
 #main-banner > div{
     width: 50%;
 }
-#main-banner > div img{
-    max-width: 100%;
+#main-banner-right {
+    background-image: url(../img/pr-main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main-banner-right > div{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(200, 70, 70, .4);
+}
+#main-banner-left{
+    padding: 1rem;  
+}
+#main-banner-left img{
+    width: 150px;
+}
+#main-banner-left-writ h1{
+    max-width: 90%;
+    font-size: 3.75rem;
+}
+#main-banner-left-writ{
+    margin-block-start: 7rem;
+}
+#main-banner-left-writ p{
+    font-size: 1.4rem;
+    margin-block: 2rem;
+}
+#main-banner-left-writ a{
+    text-decoration: none;
+    font-size: 1.75rem;
+    background-color: rgb(233, 5, 5);
+    color: #fff;
+    display: inline-block;
+    padding: 1rem 2rem;
 }
