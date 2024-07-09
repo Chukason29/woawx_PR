@@ -12,6 +12,6 @@
     <link rel="icon" href="./img/waowx-favicon.png" type="image/png">
 </head>
 <body>
-    
+
 </body>
 </html>
