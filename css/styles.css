@@ -60,25 +60,20 @@
 #first-services{
     width: 100%;
     height: 100vh;
+    display: flex;
 }
-#first-services-div{
+#first-services > div{
     width: 50%;
     height: 100vh;
-}
-
-.first-services-div > div{
-    width: 50%;
-    height: 50vh;
-    overflow: hidden;
 }
 #first-services img{
     max-width: 100%;
 }
-.first-services-left{
+.first-services-left-div{
     display: flex;
     flex-wrap: wrap;
 }
-.first-services-left > div{
+.first-services-left-div > div{
     width: 50%;
     height: 50vh;
     overflow: hidden;
@@ -86,19 +81,32 @@
 .first-service-left-writ{
     display: flex;
     align-items: center;
-    padding-left: 1rem;
+    padding: 2rem;
     border-top: 3.5px solid rgb(233, 5, 5);
     border-bottom: 3.5px solid #000000;
     font-family: "Lilita One", sans-serif;
     font-weight: 700;
+    text-shadow: 0px 0px 1.2px red;
 }
-.first-services-left img{
+.first-services-left-div img{
     filter: brightness(.4);
     transform: scale(1);
     transition-duration: .3s;
 }
-.first-services-left img:hover{
+.first-services-left-div img:hover{
     transform: scale(1.1);
     transition-duration: .45s;
     z-index: -9;
+}
+.first-services-right{
+    overflow: hidden;
+}
+.first-services-right img{
+    filter: brightness(.35);
+    transform: scale(1);
+    transition-duration: .35s;
+}
+.first-services-right img:hover{
+    transform: scale(1.2);
+    transition-duration: .35s;
 }
