@@ -85,8 +85,13 @@
     border-top: 3.5px solid rgb(233, 5, 5);
     border-bottom: 3.5px solid #000000;
     font-family: "Lilita One", sans-serif;
-    font-weight: 700;
-    text-shadow: 0px 0px 1.2px red;
+    font-weight: 900;
+    text-shadow: 0px 0px 1px red;
+    font-size: 5rem;
+}
+.first-service-left-writ h3{
+    width: 70%;
+    margin-inline: auto;
 }
 .first-services-left-div img{
     filter: brightness(.4);
@@ -100,6 +105,7 @@
 }
 .first-services-right{
     overflow: hidden;
+    position: relative;
 }
 .first-services-right img{
     filter: brightness(.35);
@@ -109,4 +115,10 @@
 .first-services-right img:hover{
     transform: scale(1.2);
     transition-duration: .35s;
+}
+.first-services-right-inner{
+    color: #fff;
+    padding-inline: 5rem;
+    position: absolute;
+    top: 18%;
 }
