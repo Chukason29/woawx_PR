@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -55,4 +56,49 @@
 }
 #waowx-description p{
     font-size: 1.5rem;
+}
+#first-services{
+    width: 100%;
+    height: 100vh;
+}
+#first-services-div{
+    width: 50%;
+    height: 100vh;
+}
+
+.first-services-div > div{
+    width: 50%;
+    height: 50vh;
+    overflow: hidden;
+}
+#first-services img{
+    max-width: 100%;
+}
+.first-services-left{
+    display: flex;
+    flex-wrap: wrap;
+}
+.first-services-left > div{
+    width: 50%;
+    height: 50vh;
+    overflow: hidden;
+}
+.first-service-left-writ{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    border-top: 3.5px solid rgb(233, 5, 5);
+    border-bottom: 3.5px solid #000000;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 700;
+}
+.first-services-left img{
+    filter: brightness(.4);
+    transform: scale(1);
+    transition-duration: .3s;
+}
+.first-services-left img:hover{
+    transform: scale(1.1);
+    transition-duration: .45s;
+    z-index: -9;
 }
