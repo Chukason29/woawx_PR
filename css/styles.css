@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -28,14 +29,15 @@
 }
 #main-banner-left-writ h1{
     max-width: 90%;
-    font-size: 3.75rem;
+    font-size: 3.7rem;
+    font-family: "Public Sans", sans-serif;
 }
 #main-banner-left-writ{
     margin-block-start: 7rem;
 }
 #main-banner-left-writ p{
     font-size: 1.4rem;
-    margin-block: 2rem;
+    margin-block: 3rem;
 }
 #main-banner-left-writ a{
     text-decoration: none;
@@ -44,4 +46,13 @@
     color: #fff;
     display: inline-block;
     padding: 1rem 2rem;
+}
+#waowx-description{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding-block: 3rem;
+}
+#waowx-description p{
+    font-size: 1.5rem;
 }
