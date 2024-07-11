@@ -204,6 +204,7 @@
     gap: 2rem;
     justify-content: center;
     align-items: center;
+    padding-block: 1rem;
 }
 #footer img{
     width: 250px;
