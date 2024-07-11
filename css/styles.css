@@ -174,29 +174,35 @@
     background-color: red;
     text-align: center;
     padding-block: 1.5rem;
+    display: flex;
+    align-items: center;
 }
 .brand-title{
     margin-top: 2rem;
-    width: auto;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
 }
-
-.brand-line{
-    height: 2.5px;
-    background-color: black;
-    max-width: 100%;
+.brand-title ~ p{
+    font-family: "Young Serif", serif;
+    font-size: 1.5rem;
+    padding-inline: 3rem;
 }
 .social-blocks i{
     font-size: 2rem; 
 }
 #facebook-block{
-
+    background-color: rgba(0, 0, 0, .85);
+    color: #fff;
 }
 #instagram-block{
-
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 50, 50);
 }
 #twitter-block{
 
 }
 #linkedin-block{
-
+    background-color: rgb(47, 90, 116);
+    color: #fff
 }
