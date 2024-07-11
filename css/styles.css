@@ -200,6 +200,10 @@
 #footer{
     background-color: black;
     color: #fff;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 #footer img{
     width: 250px;
