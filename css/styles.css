@@ -122,3 +122,21 @@
     position: absolute;
     top: 18%;
 }
+.graphing{
+    max-height: 100vh;
+    position: relative;
+}
+.graphing img{
+    max-width: 100%;
+    filter: brightness(.2);
+}
+.graphing-div{
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    max-width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    
+}
