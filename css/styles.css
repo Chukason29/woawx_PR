@@ -160,7 +160,7 @@
     max-width: 20%;
 }
 #connect-with-us{
-    padding-block: 7rem;
+    padding-block: 4rem;
     text-align: center;
     font-family: "Young Serif", serif;
     font-size: 4rem;
@@ -190,24 +190,25 @@
     font-size: 2rem; 
 }
 
-#facebook-block{
+#facebook-block a{
     background-color: rgba(0, 0, 0, .85);
     color: #fff;
+}
+#instagram-block{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; 
 }
 #instagram-block a{
     display: block;
     background-color: rgb(255, 255, 255);
     color: rgb(50, 50, 50);
-    height: 35vh;
     text-decoration: none;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
 }
-#twitter-block{
+#twitter-block a{
     background-color: rgba(90, 90, 90, .85);
     color: #fff;
 }
-#linkedin-block{
+#linkedin-block a{
     background-color: rgb(47, 90, 116);
     color: #fff
 }
