@@ -171,9 +171,7 @@
 .social-blocks{
     width: 25%;
     height: 35vh;
-    background-color: red;
     text-align: center;
-    padding-block: 1.5rem;
     display: flex;
     align-items: center;
 }
@@ -191,16 +189,23 @@
 .social-blocks i{
     font-size: 2rem; 
 }
+
 #facebook-block{
     background-color: rgba(0, 0, 0, .85);
     color: #fff;
 }
-#instagram-block{
+#instagram-block a{
+    display: block;
     background-color: rgb(255, 255, 255);
     color: rgb(50, 50, 50);
+    height: 35vh;
+    text-decoration: none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 #twitter-block{
-
+    background-color: rgba(90, 90, 90, .85);
+    color: #fff;
 }
 #linkedin-block{
     background-color: rgb(47, 90, 116);
