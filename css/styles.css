@@ -177,6 +177,13 @@
 }
 .brand-title{
     margin-top: 2rem;
+    width: auto;
+}
+
+.brand-line{
+    height: 2.5px;
+    background-color: black;
+    max-width: 100%;
 }
 .social-blocks i{
     font-size: 2rem; 
