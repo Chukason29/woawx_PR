@@ -175,8 +175,11 @@
     text-align: center;
     padding-block: 1.5rem;
 }
+.brand-title{
+    margin-top: 2rem;
+}
 .social-blocks i{
-    font-size: 3rem; 
+    font-size: 2rem; 
 }
 #facebook-block{
 
