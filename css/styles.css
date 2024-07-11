@@ -164,6 +164,8 @@
     text-align: center;
     font-family: "Young Serif", serif;
     font-size: 4rem;
+    text-decoration: underline;
+    text-underline-offset: 20px;
 }
 #connect-socials{
     display: flex;
@@ -189,26 +191,9 @@
 .social-blocks i{
     font-size: 2rem; 
 }
-
-#facebook-block a{
-    display: block;
-    background-color: rgba(0, 0, 0, .85);
-    color: #fff;
-}
-#instagram-block{
-    border-top: 2px solid black;
-    border-bottom: 2px solid black; 
-}
-#instagram-block a{
+.social-blocks a{
     display: block;
     background-color: rgb(255, 255, 255);
+    color: rgb(50, 50, 50);
     text-decoration: none;
-}
-#twitter-block a{
-    display: block;
-    color: #fff;
-}
-#linkedin-block a{
-    display: block;
-    color: #fff
 }
