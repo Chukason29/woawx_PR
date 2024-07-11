@@ -197,3 +197,10 @@
     color: rgb(50, 50, 50);
     text-decoration: none;
 }
+#footer{
+    background-color: black;
+    color: #fff;
+}
+#footer img{
+    width: 250px;
+}
