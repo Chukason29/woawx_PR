@@ -191,6 +191,7 @@
 }
 
 #facebook-block a{
+    display: block;
     background-color: rgba(0, 0, 0, .85);
     color: #fff;
 }
@@ -201,14 +202,13 @@
 #instagram-block a{
     display: block;
     background-color: rgb(255, 255, 255);
-    color: rgb(50, 50, 50);
     text-decoration: none;
 }
 #twitter-block a{
-    background-color: rgba(90, 90, 90, .85);
+    display: block;
     color: #fff;
 }
 #linkedin-block a{
-    background-color: rgb(47, 90, 116);
+    display: block;
     color: #fff
 }
