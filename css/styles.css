@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -81,10 +81,10 @@
 .first-service-left-writ{
     display: flex;
     align-items: center;
-    padding: 2rem;
+    padding: 1.5rem;
     border-top: 3.5px solid rgb(233, 5, 5);
     border-bottom: 3.5px solid #000000;
-    font-family: "Lilita One", sans-serif;
+    font-family: "Young Serif", serif;
     font-weight: 900;
     text-shadow: 0px 0px 1px red;
     font-size: 5rem;
@@ -107,6 +107,9 @@
     overflow: hidden;
     position: relative;
 }
+.first-services-right h3{
+    font-family: "Young Serif", serif;
+}
 .first-services-right img{
     filter: brightness(.35);
     transform: scale(1);
@@ -128,7 +131,7 @@
 }
 .graphing img{
     max-width: 100%;
-    filter: brightness(.2);
+    filter: brightness(.5);
 }
 .graphing-div{
     height: 100vh;
@@ -138,5 +141,52 @@
     color: #fff;
     display: flex;
     align-items: center;
-    
+    padding-inline: 12rem;
+}
+.graphing-div h1{
+    font-family: "Young Serif", serif;
+}
+.graphing-div p{
+    font-size: 1.2rem;
+}
+.graphing-div a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: .85rem;
+    border: 1px solid #fff;
+    max-width: 20%;
+}
+#connect-with-us{
+    padding-block: 7rem;
+    text-align: center;
+    font-family: "Young Serif", serif;
+    font-size: 4rem;
+}
+#connect-socials{
+    display: flex;
+}
+.social-blocks{
+    width: 25%;
+    height: 35vh;
+    background-color: red;
+    text-align: center;
+    padding-block: 1.5rem;
+}
+.social-blocks i{
+    font-size: 3rem; 
+}
+#facebook-block{
+
+}
+#instagram-block{
+
+}
+#twitter-block{
+
+}
+#linkedin-block{
+
 }
