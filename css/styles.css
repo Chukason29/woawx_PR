@@ -13,7 +13,7 @@
     width: 50%;
 }
 #main-banner-right {
-    background-image: url(../img/pr-main.jpg);
+    background-image: url(../img/main-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -196,6 +196,9 @@
     background-color: rgb(255, 255, 255);
     color: rgb(50, 50, 50);
     text-decoration: none;
+}
+.social-blocks a:hover{
+    color: rgba(199, 0, 0, 0.733);
 }
 #footer{
     background-color: black;
