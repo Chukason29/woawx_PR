@@ -89,6 +89,17 @@
     text-shadow: 0px 0px 1px red;
     font-size: 5rem;
 }
+.first-service-left-img{
+    position: relative;
+}
+.first-service-left-writ-img{
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    font-family: "young serif", sans-serif;
+    text-align: center;
+    width: 100%;
+}
 .first-service-left-writ h3{
     width: 70%;
     margin-inline: auto;
@@ -226,11 +237,19 @@
     }
     #main-banner-left-writ h1{
         max-width: 90%;
-        font-size: 2.7rem;
+        font-size: 2.5rem;
         font-family: "Public Sans", sans-serif;
     }
     #main-banner-left-writ{
         margin-block-start: 4rem;
+    }
+    #main-banner-right > div{
+        height: auto;
+    }
+    #main-banner-left-writ p{
+        font-size: 1.2rem;
+        margin-block: 2rem;
+        text-align: justify;
     }
     #first-services{
         height: auto;
@@ -247,6 +266,9 @@
         width: 100%;
         height: 50vh;
         overflow: hidden;
+    }
+    .first-service-left-writ{
+        display: none;
     }
     .graphing{
         max-height: autos;
