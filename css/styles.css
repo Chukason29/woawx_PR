@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -26,7 +27,7 @@
     width: 50%;
 }
 #main-banner-right {
-    background-image: url(../img/main-banner.jpg);
+    background-image: url(../img/GuestListManagement.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -44,7 +45,7 @@
 #main-banner-left-writ h1{
     max-width: 90%;
     font-size: 3.7rem;
-    font-family: "Public Sans", sans-serif;
+    font-family: "Mulish", sans-serif;
 }
 #main-banner-left-writ{
     margin-block-start: 7rem;
