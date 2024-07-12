@@ -33,7 +33,7 @@
 #main-banner-right > div{
     width: 100%;
     height: 100vh;
-    background-color: rgba(200, 70, 70, .4);
+    background-color: rgba(0, 0, 0, .35);
 }
 #main-banner-left{
     padding: 1rem;  
@@ -229,9 +229,12 @@
     color: #fff;
     display: flex;
     gap: 2rem;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding-block: 1rem;
+}
+#footer > div{
+    width: 33.33%;
 }
 #footer img{
     width: 250px;

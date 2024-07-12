@@ -1,6 +1,3 @@
-//toggling through the menu system
-openMenu.addEventListener("click", toggleMenu);
-closeMenu.addEventListener("click", toggleMenu);
 $(document).ready(function() {
     $(window).scroll(function() {
         $('.animated-element').each(function() {
