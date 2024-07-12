@@ -217,6 +217,18 @@
         height: auto;
         display: block;
     }
+    #first-services > div{
+        width: 100%;
+        height: auto;
+    }
+    .first-services-left-div{
+        display: block;
+    }
+    .first-services-left-div > div{
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+    }
     .graphing{
         max-height: autos;
         position: relative;
