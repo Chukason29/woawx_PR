@@ -213,6 +213,25 @@
     width: 250px;
 }
 @media screen and (max-width: 598px) {
+    #main-banner{
+        display: block;
+        height: auto;
+    }
+    #main-banner > div{
+        width: 100%;
+    }
+    #main-banner-right {
+        background-image: url(../img/main-banner.jpg);
+        background-size: contain;
+    }
+    #main-banner-left-writ h1{
+        max-width: 90%;
+        font-size: 2.7rem;
+        font-family: "Public Sans", sans-serif;
+    }
+    #main-banner-left-writ{
+        margin-block-start: 4rem;
+    }
     #first-services{
         height: auto;
         display: block;
