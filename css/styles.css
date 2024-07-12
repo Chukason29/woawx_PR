@@ -213,6 +213,15 @@
     width: 250px;
 }
 @media screen and (max-width: 598px) {
+    .graphing-div{
+
+        position: absolute;
+        top: -200px;
+        max-width: 100%;
+        color: #fff;
+        align-items: center;
+        padding-inline: 1rem;
+    }
     #connect-socials{
         display: block;
     }
