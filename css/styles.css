@@ -5,6 +5,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+.animated-element {
+    opacity: 0;
+    position: relative;
+    top: 5rem;
+    transition: all .8s ease;
+    transition-delay: 2.7;
+}
+.animated-element.visible {
+    opacity: 1;
+    position: relative;
+    top: 0rem;
+    transition: all .9s ease;
+}
 #main-banner{
     display: flex;
     height: 100vh;
