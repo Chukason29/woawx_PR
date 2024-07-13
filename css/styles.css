@@ -181,6 +181,9 @@
     max-width: 100%;
     filter: brightness(.5);
 }
+.graphing video{
+    width: 100%;
+}
 .graphing-div{
     height: 100vh;
     position: absolute;
