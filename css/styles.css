@@ -64,6 +64,9 @@
 #menu a:hover{
     color: red
 }
+#menu span{
+    display: none;
+}
 #main-banner-left-writ{
     margin-block-start: 7rem;
 }
@@ -284,6 +287,15 @@
         font-size: 1.2rem;
         margin-block: 2rem;
         text-align: justify;
+    }
+    #menu span{
+        display: inline-block;
+    }
+    #menu a{
+        display: none;
+    }
+    #menu{
+        width: 10%;
     }
     #first-services{
         height: auto;
