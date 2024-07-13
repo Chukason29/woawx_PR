@@ -300,6 +300,12 @@
     #menu{
         width: 10%;
     }
+    #waowx-description{
+        padding-inline: .25rem;
+    }
+    #waowx-description p{
+        font-size: 1rem;
+    }
     #first-services{
         height: auto;
         display: block;
