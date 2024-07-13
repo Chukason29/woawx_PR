@@ -285,11 +285,14 @@
     display: block;
     border: none;
     color: white;
-    background-color: rgba(199, 0, 0, 0.733);
+    background-color: black;
     text-align: center;
     width: 80%;
     margin-inline: auto;
     padding-block: .5rem;
+}
+#contact-form button:hover{
+    background-color: rgb(150, 150, 150);
 }
 @media screen and (max-width: 598px) {
     #main-banner{
