@@ -9,7 +9,7 @@
     text-align: right;
     font-family: var(--menu-font);
     width: 250px;
-    height: 350px;
+    height: 100vh;
     z-index: 999;
 }
 #menu-nav ul{
