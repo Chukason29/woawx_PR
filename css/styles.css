@@ -328,6 +328,9 @@
     .first-service-left-writ-img h3{
         display: block;
     }
+    .first-services-right-inner{
+        padding-inline: 3rem;
+    }
     .graphing{
         max-height: autos;
         position: relative;
