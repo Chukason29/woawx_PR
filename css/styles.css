@@ -278,6 +278,7 @@
     border: 1px solid rgb(150, 150, 150);
     margin-top: .5rem;
     height: 35px;
+    padding-left: 1rem;
 }
 #contact-form button{
     margin-top: 1rem;
