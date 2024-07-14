@@ -89,8 +89,7 @@ function sendMail($email, $message)
 
         default:
            $phone = htmlentities(htmlspecialchars($_POST['phone']));
-            //$stu_firstname = db_Input_Secure($db_conn,'stu_firstname');
-            //$stu_firstname = nameChecker($stu_firstname);
+            
             break;
     }
     if (TRUE == $valid) {
