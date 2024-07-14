@@ -1,18 +1,18 @@
 <?php
  $valid = true;
  use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
+ use PHPMailer\PHPMailer\SMTP;
+ use PHPMailer\PHPMailer\Exception;
 
 function sendMail($email, $message)
 {
-    //require("PHPMailer\src\PHPMailer.php");
-    //require("PHPMailer\src\SMTP.php");
-    //require("PHPMailer\src\Exception.php");
-
-    require __DIR__ . "PHPMailer\src\PHPMailer.php";
-    require __DIR__ . "PHPMailer\src\SMTP.php";
-    require __DIR__ . "PHPMailer\src\Exception.php";
+    //require(".\PHPMailer\src\PHPMailer.php");
+    //require(".\PHPMailer\src\SMTP.php");
+    //require(".\PHPMailer\src\Exception.php");
+    
+    require __DIR__ . '/PHPMailer/src/PHPMailer.php';
+    require __DIR__ . '/PHPMailer/src/SMTP.php';
+    require __DIR__ . '/PHPMailer/src/Exception.php';
     $mail = new PHPMailer(true);
 
     try {
@@ -96,16 +96,13 @@ function sendMail($email, $message)
     }
     if (TRUE == $valid) {
         $waowx_msg = "Hello Waowx <br> I am $name and I am interested with PR with waowX <br> my details are below<br> email: $email<br> phone: $phone";
-        if(!sendMail("tobi@waowx.com", $waowx_msg)){
+        if(@sendMail("tobi@waowx.com", $waowx_msg)){
             echo "<div class = 'alert alert-success alert-dismissible w-100 mx-auto' role= 'alert'>
                         Thanks for contacting waowx. 
                     </div> ";
-            echo "<div class = 'alert alert-danger alert-dismissible w-100 mx-auto' role= 'alert'>
-                Oops! something went wrong try again
-            </div> ";
         }else{
-            echo "<div class = 'alert alert-success alert-dismissible w-100 mx-auto' role= 'alert'>
-                        Thanks for contacting waowx. 
+            echo "<div class = 'alert alert-danger alert-dismissible w-100 mx-auto' role= 'alert'>
+                       Oops! something went wrong try again
                     </div> ";
         }
     }
