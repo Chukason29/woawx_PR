@@ -75,8 +75,7 @@ function sendMail($email, $message)
             break;
         default:
            $email = htmlentities(htmlspecialchars($_POST['email']));
-            //$stu_firstname = db_Input_Secure($db_conn,'stu_firstname');
-            //$stu_firstname = nameChecker($stu_firstname);
+            
             break;
     }
     switch (true) {
