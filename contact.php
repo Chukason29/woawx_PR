@@ -93,7 +93,7 @@ function sendMail($email, $message)
     }
     if (TRUE == $valid) {
         $waowx_msg = "Hello Waowx <br> I am $name and I am interested with PR with waowX <br> my details are below<br> email: $email<br> phone: $phone";
-        if(!sendMail("victoralaegbu@gmail.com", $waowx_msg)){
+        if(!sendMail("tobi@waowx.com", $waowx_msg)){
             echo "<div class = 'alert alert-success alert-dismissible w-100 mx-auto' role= 'alert'>
                         Thanks for contacting waowx. 
                     </div> ";
