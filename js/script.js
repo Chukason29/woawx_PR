@@ -31,3 +31,31 @@ function toggleMenu() {
 //toggling through the menu system
 openMenu.addEventListener("click", toggleMenu);
 closeMenu.addEventListener("click", toggleMenu);
+
+
+
+// Form Section
+
+$(document).ready(function(){
+    $('#contact').click(function(event){
+        $('#contact').attr('disabled', 'disabled');
+        event.preventDefault();
+        var formData = $('#contact-form').serialize();
+        $.ajax({
+            url: 'contact.php',
+            method: 'post',
+            data : formData + '&action=contact',
+            beforeSend: function(){
+                $('#loader').show();
+            }
+            }).done(function(result){
+                if(result.length > 0){
+                    $('#loader').hide();
+                    $('#result').html(result);
+                    $('#contact').removeAttr('disabled');
+                }
+                event.stopImmediatePropagation();
+                return false;
+            })
+    })    
+})

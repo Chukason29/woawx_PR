@@ -223,20 +223,22 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form action="" id="contact-form">
+            <div id="loader"><img src="./img/loader.gif" alt="" width="20" height="20" style="display: block; margin: auto;"></div>
+            <div id="result" class="text-center"></div>
+            <form id="contact-form" role="form" method= "post" action="">
             <div class="class-form">
-                <input type="text" class="class-form" placeholder="Name or Company Name" required>
+                <input type="text" name="name" class="class-form" placeholder="Name or Company Name" required>
             </div>
             <div class="class-form">
-                <input type="email" class="class-form" placeholder="Email" required>
+                <input type="email" name="email" class="class-form" placeholder="Email" required>
             </div>
             <div class="class-form">
-                <input type="phone" class="class-form" placeholder="Phone">
+                <input type="phone" name="phone" class="class-form" placeholder="Phone">
             </div>
             <div class="class-form">
-                <button type="submit">Submit</button>
+                <button type="submit" id="contact">Submit</button>
             </div>
-          </form>
+            </form>
         </div>
         <div class="modal-footer text-center">
             <p class="text-center" style="color: red;">Be Seen | Be Heard | Be Patronized</p>

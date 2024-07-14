@@ -294,6 +294,9 @@
 #contact-form button:hover{
     background-color: rgb(150, 150, 150);
 }
+#loader{
+    display: none;
+}
 @media screen and (max-width: 598px) {
     #main-banner{
         display: block;
